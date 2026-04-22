@@ -22,8 +22,6 @@ desktop.ini
 # Jupyter
 .ipynb_checkpoints/
 
-# Models (có thể rất lớn)
-models/*.pkl
 
 # Data thô (không push lên git vì nặng)
 data/raw/fire/*
