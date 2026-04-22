@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (có thể rất lớn)
+models/*.pkl
+
+# Data thô (không push lên git vì nặng)
+data/raw/fire/*
+data/raw/non_fire/*
+data/processed/*
+!data/raw/fire/.gitkeep
+!data/raw/non_fire/.gitkeep
+!data/processed/.gitkeep
+
+# Reports output
+reports/figures/*.png
+reports/results/*.json
